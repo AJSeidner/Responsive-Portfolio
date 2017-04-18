@@ -1,0 +1,236 @@
+* {
+	box-sizing:border-box;
+}
+
+body {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	max-width: 960px;
+	margin-top: 40px;
+
+}
+
+.header{
+	background:#ffffff;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	flex-direction: row;
+	justify-content;
+	flex-wrap: nowrap;
+}
+
+h1 {
+	float: left;
+	margin-left: 205px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	padding-top:20px;
+	padding-bottom:20px;
+	font-size: 40px;
+	background: #4aaaa5;
+	border: 1px;
+	border-color: #cccccc;
+	width: 300px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: white;
+	text-align: center;
+}
+
+nav {
+	text-decoration: none;
+	float: right;
+	padding-right: 300px;
+	margin-bottom: 0px;
+	margin-top: 50px;
+	background: #ffffff;
+	color: #777777;
+}
+
+.icon{
+	height: 70px;
+	width: 70px;
+	padding: 5px;
+}
+
+.nav-links{
+	margin-top:20px;
+}
+
+#aboutLink{
+	border-right-style:solid;
+	border-right-color:#dddddd;
+	border-right-width:1px;
+	padding-right:3px;
+}
+
+#portfolioLink{
+	border-right-style:solid;
+	border-right-color:#dddddd;
+	border-right-width:1px;
+	padding-right:3px;
+}
+
+.page-wrap{
+	width: 650px;
+	margin: 0 auto 0 auto;
+	padding-top: 20px;
+	
+}
+
+
+.container {
+	
+	float: left;
+	width: 500px;
+	margin-top:100px;
+	margin-left: 50px;
+	background: #ffffff;
+	border-style: solid;
+	border-width: 0px;
+	border-color: #dddddd;
+	padding: 10px;
+}
+
+
+h2 {
+	padding-left:20px;
+	padding-right:15px;
+	font-size: 35px;
+	background: #ffffff;
+	color:#4aaaa5;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 1px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-bottom:10px;
+}
+
+#AJ{
+	width: 200px;
+	height: 200px;
+	padding-left: 5px;
+	padding-right: :30px;
+}
+
+p{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+   }
+
+.links{
+	margin-right: 100px;
+	padding: 10px;
+    height: 55px;
+    display: inline;
+    position: fixed;
+	right:155px;
+	height: 150px;
+	background: #ffffff;
+	margin-top:100px;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 0px;
+}
+
+.block{
+	float: left;
+	position:absolute
+	text-align: center;
+	margin: 20px;
+	width: 200px;
+	height: 150px;
+}
+h4{
+	position: absolute; 
+   	font-size:20px;
+   	background-color: #4aaaa5;
+   color: white;
+   font-family: 'Georgia', Times, Times New Roman, serif;
+   padding-top: 15px;
+   padding-top: 15px;
+
+   
+
+}
+
+#hangman{
+	left:235px;
+	top:350px;
+	padding-left: 56px;
+   padding-right: 56px;
+
+}
+#rpg{
+	left:470px;
+	top:350px;
+	padding-left: 54px;
+   padding-right: 54px;
+}
+
+#trivia{
+	left:235px;
+	top:550px;
+	padding-left: 56px;
+   padding-right: 56px;
+}
+
+}
+
+#rutgers{
+	left:435px;
+	top:550px;
+	padding-left: 56px;
+   padding-right: 56px;
+}
+
+}
+#rps{
+	left:235px;
+	bottom: 100px;
+	padding-left: 56px;
+   padding-right: 56px;
+}
+
+}
+
+h3{
+	color:#4aaaa5;
+	font-size:25px;
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-color: #dddddd;
+	border-bottom-width: 1px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin-bottom: 10px;
+}
+
+#contact_form{
+	padding: 30px;
+	line-height: 30px;
+}
+
+
+.site-footer {
+	clear:both;
+	position : fixed;
+	padding-bottom: 40px;
+	padding-top: 40px;
+    bottom : 0;
+    height : 40px;
+    margin-top : 40px;
+    width:100%;
+	background: #666666;
+	color: white;
+	text-align: center;
+	border-top-style:solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 10px;
+}
