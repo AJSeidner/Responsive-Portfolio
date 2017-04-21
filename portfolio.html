@@ -1,59 +1,75 @@
 <!doctype html>
-<html>
+<html lang="en-us">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF 8">
 	<title>A.J Seidner</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body background="assets/images/background.png">
-	<div class="header">
-		<h1>A.J Seidner</h1>
+
+<body>
+
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">A.J Seidner</a>
 			<nav>
-				<div class="nav-links">
-				<a href= "index.html" id="aboutLink" style="text-decoration: none;">About</a>
-				<a href= "portfolio.html" id="portfolioLink" style="text-decoration: none;">Portfolio</a>
-				<a href= "contact.html" style="text-decoration: none;">Contact</a>
-				</div>
+				<a href= "index.html">About</a>
+				<a href= "portfolio.html">Portfolio</a>
+				<a href= "contact.html">Contact</a>
 			</nav>
-	</div>
+		</div>
+	</header>
 
-<div class="page-wrap">
 
-	<div class="container">
-			<h2>Portfolio</h2>
+<div class="wrapper">
+	<div id="main-container" class="container">
+		<section class="main-section">
+			<h1>Portfolio</h1>
+				<div class="work">
+				<img src="assets/images/portf1.jpg" alt="hangman">
+					<h3>Hangman</h3>
+				</div>
+				<div class="work">	
+				<img src="assets/images/portf2.jpg" alt="RPG Game">
+					 <h3>RPG Game</h3>
+				</div>
+				<div class="work">	
+				<img src="assets/images/portf3.jpg" alt="Trivia Game">
+					<h3>Trivia Game</h3>
+				</div>
+				<div class="work">	
+				<img src="assets/images/portf6.jpg" alt="Rutgers Info Widget">
+					<h3>Rutgers Info Widget</h3>
+				</div>
+				<div class="work">	
+				<img src="assets/images/portf4.jpg" alt="Rock Paper Scissors">
+					<h3>Rock Paper Scissors</h3>
+				</div>
 			
-				<img src="assets/images/portf1.jpg" alt="City" class="block">
-					<h4 id="hangman">Hangman</h4>
-				<img src="assets/images/portf2.jpg" alt="City" class="block">
-					 <h4 id="rpg">RPG Game</h4>
-				<img src="assets/images/portf3.jpg" alt="City" class="block">
-					<h4 id="trivia">Trivia Game</h4>
-				<img src="assets/images/portf6.jpg" alt="Golden Gate Bridge" class="block">
-					<h4 id="rutgers">Rutgers Info Widget</h4>
-				<img src="assets/images/portf4.jpg" alt="Foreign Building" class="block">
-					<h4 id="rps">Rock Paper Scissors</h4>
-			
 
-	</div>
+		</section>
 
 
 		
-	<div class="links">
-			<h3>Connect with Me</h3>
-			<a href="https://github.com/AJSeidner" target="_blank">
-			<img src="assets/images/github-icon.png" alt="GitHub" class="icon">
-			</a>
-			<a href= "https://www.linkedin.com/in/a-j-seidner-584a44140/" target="_blank">
-			<img src="assets/images/linkedin-icon.png" alt="linkedin" class="icon">
-			</a>
-			<a href="http://stackoverflow.com/users/7854233/ajseidner?tab=profile" target="_blank">
-			<img src="assets/images/stackoverflowlogo.jpg" alt="Stack Overflow" class="icon">
-			</a>
-		</div>
-
+		<section class="sidebar">
+			<div id="connect">
+				<h2>Connect with Me</h2>
+				<a href="https://github.com/AJSeidner" target="_blank">
+				<img src="assets/images/github-icon.png" class= "social" alt="GitHub"></a>
+				<a href= "https://www.linkedin.com/in/a-j-seidner-584a44140/" target="_blank">
+				<img src="assets/images/linkedin-icon.png" class= "social" alt="linkedin"></a>
+				<a href="http://stackoverflow.com/users/7854233/ajseidner?tab=profile" target="_blank">
+				<img src="assets/images/stackoverflowlogo.jpg" class="social" alt="Stack Overflow"></a>
+			</div>
+		</section>
+	</div>
 </div>
 	<footer class="site-footer">
-		<p>&copy; Copyright 2017 A.J Seidner</p>
+		<div class="container">
+		Copyright &copy; 2017 A.J Seidner
+		</div>
 	</footer>
 </body>
+
 </html>

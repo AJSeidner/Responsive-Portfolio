@@ -1,57 +1,70 @@
 <!doctype html>
-<html>
+<html lang="en-us">
+
 <head>
-	<title>A.J Seidner</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Contact | A.J Seidner</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body background="assets/images/background.png">
-	<div class="header">
-		<h1>A.J Seidner</h1>
-			<nav>
-				<div class="nav-links">
-				<a href= "index.html" id="aboutLink" style="text-decoration: none;">About</a>
-				<a href= "portfolio.html" id="portfolioLink" style="text-decoration: none;">Portfolio</a>
-				<a href= "contact.html" style="text-decoration: none;">Contact</a>
-				</div>
-			</nav>
-	</div>
 
-<div class="page-wrap">
-	<div class="container">
-		<h2>Contact</h2>
-		<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-			
-			<div class="row">
-				<label for="name">Name:</label><br />
-				<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
-			</div>
-			<div class="row">
-				<label for="email">Email:</label><br />
-				<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
-			</div>
-			<div class="row">
-				<label for="message">Message:</label><br />
-				<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
-			</div>
-			<input id="submit_button" type="submit" value="Submit" />
-		</form>	
-	</div>	
-	<div class="links">
-		<h3>Connect with Me</h3>
-		<a href="https://github.com/AJSeidner" target="_blank">
-			<img src="assets/images/github-icon.png" alt="GitHub" class="icon">
-		</a>
-		<a href= "https://www.linkedin.com/in/a-j-seidner-584a44140/" target="_blank">
-			<img src="assets/images/linkedin-icon.png" alt="linkedin" class="icon">
-		</a>
-		<a href="http://stackoverflow.com/users/7854233/ajseidner?tab=profile" target="_blank">
-			<img src="assets/images/stackoverflowlogo.jpg" alt="Stack Overflow" class="icon">
-		</a>
-	</div>
+<body>
+
+	<header id="masthead">
+		<div class="container">
+			<a href="index.html" id="logo">A.J Seidner</a>
+			<nav>
+				<a href= "index.html">About</a>
+				<a href= "portfolio.html">Portfolio</a>
+				<a href= "contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+	
+<div class="wrapper">
+<div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+	<section class="sidebar">
+		<div id="connect">
+			<h2>Connect with Me</h2>
+			<a href="https://github.com/AJSeidner" target="_blank">
+			<img src="assets/images/github-icon.png" class= "social" alt="GitHub"></a>
+			<a href= "https://www.linkedin.com/in/a-j-seidner-584a44140/" target="_blank">
+			<img src="assets/images/linkedin-icon.png" class= "social" alt="linkedin"></a>
+			<a href="http://stackoverflow.com/users/7854233/ajseidner?tab=profile" target="_blank">
+			<img src="assets/images/stackoverflowlogo.jpg" class="social" alt="Stack Overflow"></a>
+		</div>
+	</section>
 </div>
-	<footer class="site-footer">
-		<p>&copy; Copyright 2017 A.J Seidner</p>
-	</footer>
+</div>
+<footer class="site-footer">
+	<div class="container">
+		Copyright &copy; 2017 A.J Seidner
+	</div>
+</footer>
 </body>
+
 </html>
